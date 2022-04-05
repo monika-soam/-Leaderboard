@@ -1,0 +1,85 @@
+* {
+  box-sizing: border-box;
+  font-family: cursive;
+  font-weight: 800;
+}
+
+.main {
+  display: grid;
+  gap: 0%;
+  grid-template-columns: 70% 30%;
+}
+
+.leaderboard {
+  margin: 7% 5%;
+}
+
+.header h1 {
+  font-size: 4rem;
+  font-weight: bold;
+}
+
+.content {
+  margin-left: 10%;
+}
+
+.inner-content {
+  margin: 10% 2%;
+}
+
+.inner-content-heading {
+  display: flex;
+  width: 100%;
+  margin-bottom: 3%;
+}
+
+.inner-content-heading span {
+  margin-top: 1.5%;
+  width: 100%;
+  text-align: right;
+}
+
+.inner-content-heading h2 {
+  width: 100%;
+}
+
+.inner-content-data {
+  border: 3px solid black;
+}
+
+.addscore {
+  margin-top: 64%;
+  width: 80%;
+  text-align: right;
+  display: flex;
+  gap: 5%;
+  flex-direction: column;
+}
+
+.addscore h3 {
+  font-size: 2rem;
+  font-weight: 800;
+  text-align: center;
+}
+
+.addscore input {
+  padding: 4%;
+  border: 3px solid;
+  width: 100%;
+}
+
+.submit-button {
+  margin-left: 46%;
+}
+
+button {
+  font-size: 20px;
+  padding: 2% 8%;
+  border: 3px solid black;
+  box-shadow: 3px 3px black;
+}
+
+.data-name {
+  width: 25%;
+  text-align: center;
+}
