@@ -71,6 +71,10 @@ npm install --save-dev hint@6.x
 ```
 npx hint .
 ```
+##### To install all dependencies
+```
+npm install
+```
 
 ##### To Compile and See a live Version,  Run
 ```
@@ -79,11 +83,7 @@ npm run build
 ```
 npm run start
 ```
-##### To run and see test file, Run
 
-```
-npm run test
-```
 
 👤 **Monika**
 
