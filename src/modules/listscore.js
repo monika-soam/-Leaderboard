@@ -6,7 +6,9 @@ const listScoreAPI = async () => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  return response.json();
+
+  const newResponse = await response.json();
+  return newResponse;
 };
 
 const listScore = async () => {

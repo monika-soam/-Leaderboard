@@ -18,7 +18,9 @@ const getGameID = async () => {
       'Content-type': 'application/json; charset=UTF-8',
     },
   });
-  return response.json();
+
+  const newResponse = await response.json();
+  return newResponse;
 };
 const refresh = () => {
   const myHTML = listScore();
@@ -39,10 +41,9 @@ window.onload = async () => {
 
 buttonSubmit.addEventListener('click', (e) => {
   e.stopImmediatePropagation();
-  addScore(nameInput.value, scoreInput.value);
+  addScore(nameInput.value, scoreInput.value, refresh);
   nameInput.value = '';
   scoreInput.value = '';
-  refresh();
 });
 buttonRefresh.addEventListener('click', (e) => {
   e.stopImmediatePropagation();
