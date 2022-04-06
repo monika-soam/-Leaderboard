@@ -12,8 +12,7 @@ The leaderboard website displays scores submitted by different players. It also 
 
 
 ## ScreenShot Demo
-![Leaderboard](./images/leaderboard.png)
-
+![Leaderboard](./images/leaderboard1.png)
 
 
 Getting Started

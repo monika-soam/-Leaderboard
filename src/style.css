@@ -2,6 +2,7 @@
   box-sizing: border-box;
   font-family: cursive;
   font-weight: 800;
+  background-color: #f1d7c0;
 }
 
 .main {
@@ -41,10 +42,12 @@
 
 .inner-content-heading h2 {
   width: 100%;
+  font-weight: 800;
 }
 
 .inner-content-data {
-  border: 3px solid black;
+  border: 3px solid #422626;
+  box-shadow: 3px 3px 3px #875d5d;
 }
 
 .addscore {
@@ -64,8 +67,9 @@
 
 .addscore input {
   padding: 4%;
-  border: 3px solid;
+  border: 3px solid #422626;
   width: 100%;
+  box-shadow: 3px 3px 3px #875d5d;
 }
 
 .submit-button {
@@ -75,11 +79,31 @@
 button {
   font-size: 20px;
   padding: 2% 8%;
-  border: 3px solid black;
-  box-shadow: 3px 3px black;
+  border: 3px solid #422626;
+  box-shadow: 5px 5px 5px #3e0a0a;
+  background-color: #9b6969d1;
+  color: white;
+  border-radius: 6%;
 }
 
 .data-name {
-  width: 25%;
+  width: 30%;
   text-align: center;
+}
+
+.footer {
+  width: 100%;
+  border: 2px solid #422626;
+  position: absolute;
+  bottom: 0;
+  height: 6%;
+  background-color: #9b6969d1;
+}
+
+button:hover {
+  background-color: #533434d1;
+}
+
+.footer:hover {
+  background-color: #533434d1;
 }
