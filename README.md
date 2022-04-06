@@ -18,7 +18,7 @@ The leaderboard website displays scores submitted by different players. It also 
 Getting Started
 To get the content of this project locally you need to run this command in your terminal:
 
-[To do list](https://github.com/monika-soam/Leaderboard)
+[Leaderboard](https://github.com/monika-soam/Leaderboard)
 Test For tracking linter errors locally you need to follow these steps:
 
 After cloning the project you need to run this command
