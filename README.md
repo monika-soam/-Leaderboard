@@ -15,7 +15,7 @@ The leaderboard website displays scores submitted by different players. It also 
 ![Leaderboard](./images/Leaderboard1.png)
 
 ## LiveDemo
-[Leaderboard](https://monika-soam.github.io/Leaderboard/dist/)
+[LiveDemo](https://monika-soam.github.io/Leaderboard/dist/)
 
 Getting Started
 To get the content of this project locally you need to run this command in your terminal:
