@@ -1,6 +1,6 @@
 # Leaderboard
 
-The leaderboard website displays scores submitted by different players. It also allows you to submit your score. All data is preserved thanks to the external Leaderboard API service.
+The leaderboard website displays scores submitted by different players. It also allows you to submit and refresh your score. All data is preserved thanks to the external Leaderboard API service.
 
 ## Built With
 
@@ -8,6 +8,7 @@ The leaderboard website displays scores submitted by different players. It also 
 - linters
 - JavaScript
 - webpack to bundle JavaScript.
+- API Service
 
 
 ## ScreenShot Demo
@@ -18,7 +19,7 @@ The leaderboard website displays scores submitted by different players. It also 
 Getting Started
 To get the content of this project locally you need to run this command in your terminal:
 
-[To do list](https://github.com/monika-soam/Leaderboard)
+[Leaderboard](https://github.com/monika-soam/Leaderboard)
 Test For tracking linter errors locally you need to follow these steps:
 
 After cloning the project you need to run this command
